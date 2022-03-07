@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // @import "~bootstrap/scss/bootstrap";
 import NavbarContainer from './component/Navbar';
 import FormConytainer from './component/Form';
+import Aboute from './component/Aboute';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     />
     {/* <NavbarContainer /> */}
     <FormConytainer />
+    <Aboute />
     </div>
   );
 }
